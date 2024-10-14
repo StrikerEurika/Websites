@@ -53,8 +53,6 @@ async function init() {
   }
 }
 
-// Source code 🚩
-
 const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
 
 class TypeAsync extends HTMLSpanElement {
